@@ -31,5 +31,6 @@ const deleteUser = (id) => new Promise((resolve, reject) => {
 
 module.exports = {
   findUser,
-  deleteUser
+  deleteUser,
+  fixId
 }
